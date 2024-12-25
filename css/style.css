@@ -1,0 +1,184 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Montserrat", serif;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alfa Slab One", serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    padding: 50px 0px 80px;
+    background: rgb(216, 164, 5);
+}
+.header .logo-img{
+    width: 40%;
+}
+.menu .header-icon{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3d2514;
+    margin: 0px 12px;
+}
+.menu .header-icon .icon-img{
+    width: 6%;
+    font-size: 19px;
+}
+.menu .navbar .navbar-nav .nav-item .nav-link{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0px 0px 0px 20px;
+    color: #3d2514;
+    font-family: "Bebas Neue", serif;
+}
+.header .banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.header .banner .banner-left h4{
+    font-family: "Bebas Neue", serif;
+    font-size: 18px;
+    font-weight: 600;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+    color: #3d2514;
+    text-transform: uppercase;
+}
+.header .banner .banner-left h4 span{
+    width: auto;
+    padding: 15px;
+    border: 3px dashed #3d2514;
+    display: inline-block;
+    margin: 0px 0px 15px;
+}
+.header .banner .banner-left h1{
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 5px rgb(240, 233, 233);
+    font-family: "Alfa Slab One", serif;
+}
+.header .banner .banner-left h2{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 3px rgb(231, 218, 218);
+    font-family: "Alfa Slab One", serif;
+}
+.popular{
+    width: 100%;
+    padding: 80px 0px;
+}
+.popular .card-img{
+    height: 500px;
+}
+.popular .card-title{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 2px;
+    margin: 20px 20px 0px;
+}
+.popular .card h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 2px;
+    margin: 20px 20px 0px;
+}
+.popular .icon-img{
+    height: 230px;
+}
+.popular .card{
+    margin: 0px 0px 38px;
+}
+
+.choose {
+    padding: 40px 0px;
+}
+.choose .iner-choose{
+    text-align: center;
+}
+.choose .iner-choose h5{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 2px;
+}
+.choose .iner-choose h5 span{
+    background-color: rgb(223, 129, 5);
+    padding: 10px 30px;
+    margin: 0px 0px 15px;
+    display: inline-block;
+}
+.choose .iner-choose h1{
+    font-size: 43px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: "Bebas Neue", serif;
+}
+.choose .iner-choose p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7em;
+}
+.choose-left{
+    text-align: center;
+    padding: 50px 0px;
+}
+.choose-left .card-box .img-card{
+    width: 70%;
+    height: 255px;
+}
+.choose .card-box .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+}
+.choose .card-box .card-body p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7em;
+  
+}
+.choose .card-box .card-body .btn-primary{
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 30px;
+    font-family: "Alfa Slab One", serif;
+    background-color: red;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.choose .card-box .card-body .btn-primary:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: black;
+}
